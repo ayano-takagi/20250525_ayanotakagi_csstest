@@ -1,0 +1,51 @@
+/*ヘッダー*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
+    color: darkblue;
+}
+
+.header-ttl {
+    font-weight: bold;
+    font-size: 24px;
+    width: 80px;
+}
+
+.header-nav-list {
+    display: flex;
+    font-weight: bold;
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/*ボディ*/
+.words {
+    position: absolute;
+    top: 60vh;
+    left: 0vw;
+    font-size: 350%;
+    font-weight: lighter;
+}
+
+.image {
+    position: absolute;
+    top: 20vh;
+    right: 0vw;
+    z-index: 10;
+    
+}
+
+.box {
+    position: absolute;
+    left: 0vw;
+    bottom: 5vh;
+    z-index: 5;
+    width: 75vw;
+    height: 28vh;
+    background: darkblue;
+}
